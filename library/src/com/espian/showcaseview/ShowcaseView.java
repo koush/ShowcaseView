@@ -612,6 +612,9 @@ public class ShowcaseView extends RelativeLayout
 
     protected void setConfigOptions(ConfigOptions options) {
         mOptions = options;
+        if (mEndButton != null) {
+            mEndButton.setVisibility(options.noButton ? View.GONE : View.VISIBLE);
+        }
     }
 
     public ConfigOptions getConfigOptions() {

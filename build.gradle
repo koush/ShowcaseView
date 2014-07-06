@@ -13,8 +13,8 @@ task wrapper(type: Wrapper) {
 }
 
 allprojects {
-  group = 'com.github.espiandev'
-  version = '3.2.0'
+  group = 'com.github.amlcurran.showcase_view'
+  version = '50000'
 
   repositories {
     mavenCentral()
